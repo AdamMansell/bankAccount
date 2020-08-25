@@ -11,7 +11,24 @@
   <title>Bank Account</title>
 </head>
 <body>
-  
+  <div class="container">
+    <h1>Bank Account</h1>
+    <form id="form">
+      <div class="form-group">
+        <label for="account-name">Account Name:</label>    
+        <input type="text" class="form-control" id="account-name">   
+      </div>
+      <label for="initial-deposit">Initial Deposit:</label>
+      <input type="text" class="form-control" id="initial-deposit">
+      <label for="deposit-amount">Deposit Amount:</label>
+      <input type="text" class="form-control" id="deposit-amount">      
+      <label for="withdrawl-amount">Withdrawl Amount:</label>
+      <input type="text" class="form-control" id="withdrawal-amount">    
+      <button type="submit" class="btn-danger">Calculate!</button>
+    </form>
+
+    <h3 id="balanceH3"><span id="myBalance-name"></span>'s Current Balance: $<span id="myBalance"></span></h3>
+  </div>
   
 </body>
 </html>
